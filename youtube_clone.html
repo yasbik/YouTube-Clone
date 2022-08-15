@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+
+
+
+
+  <body>
+    <!------------------------------------------------------------------------------------
+      HEADER
+    -------------------------------------------------------------------------------------->
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <a href="https://www.youtube.com/">
+          <img class="youtube-logo" src="icons/youtube-logo.svg">
+        </a>
+      </div>
+
+
+
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="search-icon">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="voice-search-icon">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+
+
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" alt="upload-icon">
+          <div class="tooltip">Create</div>
+        </div>
+        
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="youtube-apps-icon">
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+        
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg" alt="notifications-icon">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/channel-15.jpg" alt="current-user-picture">
+      </div>
+    </header>
+
+
+
+    <!------------------------------------------------------------------------------------
+      SIDEBAR
+    -------------------------------------------------------------------------------------->
+    
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" alt="home-icon">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg" alt="explore-icon">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" alt="subscriptions-icon">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg" alt="originals-icon">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg" alt="youtube-music-icon">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg" alt="library-icon">
+        <div>Library</div>
+      </div>
+    </nav>
+
+
+
+    <!------------------------------------------------------------------------------------
+      VIDEOS
+    -------------------------------------------------------------------------------------->
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=qWIkBMNKj1s">
+              <img class="thumbnail" src = "thumbnails/thumbnail-1.webp">
+              <div class="video-time">13:34</div>
+            </a>
+          </div>
+          <div class="video-info-grid">  
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/c/mkbhd">
+                <img class="profile-picture" src="channel-pictures/channel-1.jpg">
+              </a>
+            </div>     
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=qWIkBMNKj1s">
+                <p class="video-title">
+                  Galaxy S22 Review: The iPhone of Android!
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/mkbhd">
+                <p class="video-author">
+                  Marques Brownlee
+                </p>
+              </a>
+              <p class="video-stats">
+                5.7M views &#183; 5 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+  
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=Tc0tLGWIqxA">
+              <img class="thumbnail" src = "thumbnails/thumbnail-2.webp">
+              <div class="video-time">3:36</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/channel/UCeLHszkByNZtPKcaVXOCOQQ">
+                <img class="profile-picture" src="channel-pictures/channel-2.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=Tc0tLGWIqxA">
+                <p class="video-title">
+                  Post Malone, The Weeknd - One Right Now
+                </p>
+              </a>
+              <a href="https://www.youtube.com/channel/UCeLHszkByNZtPKcaVXOCOQQ">
+                <p class="video-author">
+                  Post Malone
+                </p>
+              </a>
+              <p class="video-stats">
+                71M views &#183; 8 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=EQSNnARq-yI">
+              <img class="thumbnail" src = "thumbnails/thumbnail-3.webp">
+              <div class="video-time">12:52</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/c/sarahpan">
+                <img class="profile-picture" src="channel-pictures/channel-3.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=EQSNnARq-yI">
+                <p class="video-title">
+                  Day In My Life As A Google Software Engineer In NYC * in-office edition *
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/sarahpan">
+                <p class="video-author">
+                  sarah pan
+                </p>
+              </a>
+              <p class="video-stats">
+                258K views &#183; 11 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">
+              <img class="thumbnail" src = "thumbnails/thumbnail-4.webp">
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/c/LofiGirl">
+                <img class="profile-picture" src="channel-pictures/channel-4.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">
+                <p class="video-title">
+                  lofi hip hop radio - beats to relax/study to
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/LofiGirl">
+                <p class="video-author">
+                  Lofi Girl
+                </p>
+              </a>
+              <p class="video-stats">
+                21K wathing
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=15iLHlJPp_0">
+              <img class="thumbnail" src = "thumbnails/thumbnail-5.webp">
+              <div class="video-time">3:26</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/c/ZebraCorner">
+                <img class="profile-picture" src="channel-pictures/channel-5.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=15iLHlJPp_0">
+                <p class="video-title">
+                  If "Real People" Commercials were Real Life - CHECY Millennials
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/ZebraCorner">
+                <p class="video-author">
+                  Zebra Corner
+                </p>
+              </a>
+              <p class="video-stats">
+                10M views &#183; 5 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=_J8GOmYoh4Q">
+              <img class="thumbnail" src = "thumbnails/thumbnail-6.webp">
+              <div class="video-time">1:45</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/abc">
+                <img class="profile-picture" src="channel-pictures/channel-6.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=_J8GOmYoh4Q">
+                <p class="video-title">
+                  Phil Steals Clair's Perisian Paramour - Modern Family
+                </p>
+              </a>
+              <a href="https://www.youtube.com/abc">
+                <p class="video-author">
+                  ABC
+                </p>
+              </a>
+              <p class="video-stats">
+                536K views &#183; 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+  
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=i3XNDsADQM4&t=4s">
+              <img class="thumbnail" src = "thumbnails/thumbnail-7.webp">
+              <div class="video-time">24:36</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/c/DougDeMuro">
+                <img class="profile-picture" src="channel-pictures/channel-7.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=i3XNDsADQM4&t=4s">
+                <p class="video-title">
+                  The 2022 BMW M5 CS is BMW's Hellcat
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/DougDeMuro">
+                <p class="video-author">
+                  Doug DeMuro
+                </p>
+              </a>
+              <p class="video-stats">
+                601K views &#183; 3 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+  
+
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=eItv45Mrqug&t=12s">
+              <img class="thumbnail" src = "thumbnails/thumbnail-8.webp">
+              <div class="video-time">3:09</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/c/NicholasT">
+                <img class="profile-picture" src="channel-pictures/channel-8.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=eItv45Mrqug&t=12s">
+                <p class="video-title">
+                  That Guy in Your Comp Sci Class Be Like
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/NicholasT">
+                <p class="video-author">
+                  Nicholas T.
+                </p>
+              </a>
+              <p class="video-stats">
+                1M views &#183; 8 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=gJ4EAQvt9hw">
+              <img class="thumbnail" src = "thumbnails/thumbnail-9.webp">
+              <div class="video-time">2:29</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/user/IzualTheClown">
+                <img class="profile-picture" src="channel-pictures/channel-9.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=gJ4EAQvt9hw">
+                <p class="video-title">
+                  Evil Phill Modern Family
+                </p>
+              </a>
+              <a href="https://www.youtube.com/user/IzualTheClown">
+                <p class="video-author">
+                  IzualTheClown
+                </p>
+              </a>
+              <p class="video-stats">
+                540K views &#183; 9 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=YOsVpoe5tzY">
+              <img class="thumbnail" src = "thumbnails/thumbnail-10.webp">
+              <div class="video-time">3:09</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/c/mayahiga">
+                <img class="profile-picture" src="channel-pictures/channel-10.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=YOsVpoe5tzY">
+                <p class="video-title">
+                  I interviewed animals with a tiny mic again
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/mayahiga">
+                <p class="video-author">
+                  Maya
+                </p>
+              </a>
+              <p class="video-stats">
+                24M views &#183; 10 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=2HmymJCc_Qs">
+              <img class="thumbnail" src = "thumbnails/thumbnail-11.webp">
+              <div class="video-time">1:01</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/c/SonyPicturesEntertainmentIndia">
+                <img class="profile-picture" src="channel-pictures/channel-11.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=2HmymJCc_Qs">
+                <p class="video-title">
+                  How To Spot A Counterfeit Bill Ft. Nacho Varga | Better Call Saul
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/SonyPicturesEntertainmentIndia">
+                <p class="video-author">
+                  Sony Pictures Entertainment India
+                </p>
+              </a>
+              <p class="video-stats">
+                651K views &#183; 6 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=Hv6EMd8dlQk">
+              <img class="thumbnail" src = "thumbnails/thumbnail-12.webp">
+              <div class="video-time">3:09</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/c/JomaOppa">
+                <img class="profile-picture" src="channel-pictures/channel-12.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=Hv6EMd8dlQk">
+                <p class="video-title">
+                  if Apple made window blinds...
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/JomaOppa">
+                <p class="video-author">
+                  Joma Tech
+                </p>
+              </a>
+              <p class="video-stats">
+                3.1M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </section> 
+    </main>
+  </body>
+</html>
